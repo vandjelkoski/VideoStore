@@ -1,6 +1,0 @@
-﻿namespace VideoStore
-{
-    class Util
-    {
-    }
-}
