@@ -21,7 +21,7 @@ namespace VideoStore
     public class ChildrensPrice : Price
     {
          /// <summary>
-         /// Gets the pricing code.
+         /// GetPriceCode
          /// </summary>
          /// <returns>Returns the value of the pricing code.</returns>
         public override int GetPriceCode()
