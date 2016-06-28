@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VideoStore
+﻿namespace VideoStore
 {
     class Rental
     {
@@ -31,11 +25,15 @@ namespace VideoStore
             return this.movie;
         }
 
+        /// <summary>
+        /// GetCharge.
+        /// </summary>
+        /// <returns>Returns charge.</returns>
         public double GetCharge()
         {
             return this.GetMovie().GetCharge(this.daysRented);
         }
-
+        
         public int GetFrequentRenterPoints()
         {
             return this.GetMovie().GetFrequentRenterPoints(this.daysRented);
