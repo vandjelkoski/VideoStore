@@ -22,6 +22,10 @@ namespace VideoStore
             return this.daysRented;
         }
 
+        /// <summary>
+        /// GetMovie.
+        /// </summary>
+        /// <returns>Retursn the movie.</returns>
         public Movie GetMovie()
         {
             return this.movie;
