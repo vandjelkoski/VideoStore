@@ -21,11 +21,15 @@
             return this.movie;
         }
 
+        /// <summary>
+        /// GetCharge.
+        /// </summary>
+        /// <returns>Returns charge.</returns>
         public double GetCharge()
         {
             return this.GetMovie().GetCharge(this.daysRented);
         }
-
+        
         public int GetFrequentRenterPoints()
         {
             return this.GetMovie().GetFrequentRenterPoints(this.daysRented);
