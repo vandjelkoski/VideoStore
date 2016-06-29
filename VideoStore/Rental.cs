@@ -2,8 +2,8 @@
 {
     class Rental
     {
-        private Movie movie;
-        private int daysRented;
+        private readonly Movie movie;
+        private readonly int daysRented;
 
         public Rental(Movie movie, int daysRented)
         {
