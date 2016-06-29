@@ -15,6 +15,10 @@ namespace VideoStore
             this.title = title;
             this.SetPriceCode(priceCode);
         }
+        /// <summary>
+        /// GetPriceCode
+        /// </summary>
+        /// <returns></returns>
         public int GetPriceCode()
         {
             return price.GetPriceCode();
