@@ -5,6 +5,11 @@
         private Movie movie;
         private int daysRented;
 
+        /// <summary>
+        /// Rental
+        /// </summary>
+        /// <param name="movie">The movie.</param>
+        /// <param name="daysRented">Days rented.</param>
         public Rental(Movie movie, int daysRented)
         {
             this.movie = movie;
