@@ -11,6 +11,10 @@
             this.daysRented = daysRented;
         }
 
+        /// <summary>
+        /// GetDaysRented.
+        /// </summary>
+        /// <returns>Returns days rented.</returns>
         public int GetDaysRented()
         {
             return this.daysRented;
