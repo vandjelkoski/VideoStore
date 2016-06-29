@@ -9,14 +9,14 @@ namespace VideoStore
         public const int NewRelease = 1;
         private readonly string title;
         private Price price;
-
+        
         public Movie(String title, int priceCode)
         {
             this.title = title;
             this.SetPriceCode(priceCode);
         }
         /// <summary>
-        /// GetPriceCode
+        /// GetPriceCode...
         /// </summary>
         /// <returns></returns>
         public int GetPriceCode()
